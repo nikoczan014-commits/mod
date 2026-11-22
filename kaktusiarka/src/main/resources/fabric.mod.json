@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "kaktusiarka",
+  "version": "${version}",
+  "name": "Kaktusiarka",
+  "description": "Komenda /kaktusiarka [pietra] buduje kaktusiarke na calym chunku z piasku, doniczek i kaktusow z ekwipunku.",
+  "authors": ["Ty"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["pl.kaktusiarka.Kaktusiarka"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
